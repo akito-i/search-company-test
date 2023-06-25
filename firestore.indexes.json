@@ -1,0 +1,19 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "companies",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "nameIndex",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "kanaIndex",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
